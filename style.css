@@ -1,0 +1,40 @@
+.h1 {
+  font-family: 'Covered By Your Grace', cursive;
+  font-size: 100px;
+}
+
+/* .container {
+  display: inline-block;
+} */
+
+.nav {
+  height: 80px;
+  font-size: 100px;
+} 
+
+hr { 
+  display: block;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: inset;
+  border-width: 1px;
+}
+
+#main-bio {
+  width: 1000px;
+  padding: 10px;
+  border: 50px;
+  margin-left: 50px;
+  display: inline-flex;
+  text-align: right;
+}
+
+.bg-light {
+  background-color: rgb(120, 120, 180) !important;
+}
+
+footer {
+  bottom: 10px;
+}

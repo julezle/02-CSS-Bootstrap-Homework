@@ -5,37 +5,88 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bootstrap Homework</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-</head>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&display=swap" rel="stylesheet">
+
+<!--Page font throughout-->
+    <style>
+      body {
+        font-family: 'Covered By Your Grace', cursive;
+        font-size: 25px;
+        color: white;
+      }
+    </style>
+
+<!--background picture here, add background size-->
+<style>
+  body {background-size: cover;
+    background-image: url(https://i.ytimg.com/vi/8ZMxLZqL73M/maxresdefault.jpg);
+  }
+  </style>
 
 <body>
     
-    <ul class="nav justify-content-end">
-        <h1>Julez Le</h1>
-        <li class="nav-item">
-          <a class="nav-link about" href="#">About</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Portfolio</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Contact</a>
-        </li>
-    </ul>
+  <nav class="navbar navbar-expand flex-row navbar-light bg-light justify-content-start height: 50px background-color: black;">
+    <a class="navbar-name"><h1>Julez Le</h1></a>
+    <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button> -->
 
-    <div class="container">
-        <div class="row">
-          <div class="col-sm">
-            One of three columns
-          </div>
-          <div class="col-sm">
-            One of three columns
-          </div>
-          <div class="col-sm">
-            One of three columns
-          </div>
-        </div>
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html">About Me <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="portfolio.html">Portfolio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">Contact</a>
+        </li>
+
+      </ul>
     </div>
+  </nav>
 
+  <!--Enter photo and about me here-->
+
+    <!--container = flexbox-->
+    <!--sizing, columns-->
+
+    <div class="flexbox p-4 m-auto m-sm-4" style="max-width: 1500px">
+      <div class="row">
+          <div class="col-md-12">
+            <div class="page-header">
+            <h1>About Me</h1>
+
+    <!--divider line-->
+            <hr>
+
+      <div class="row">
+          <div class="col-12">
+
+          <img src="https://www.lovethispic.com/uploaded_images/73862-I-Want-A-Happy-Life.jpg" width="250" height="200" alt="Happy Picture" class="float-right m-2" class="img-responsive" width="50%">
+      
+      <div class="text-box">
+      <p>Hello all! Yours truly, Julez.<br>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed laboriosam illum pariatur. A saepe, odit ea beatae tempora quod alias fuga quisquam atque commodi, ipsum officiis eum repellat consequatur aspernatur corporis facere laboriosam rem? Dolorem saepe vero ipsa reiciendis fugit, ipsum corporis deserunt molestias magnam eos eligendi dolores accusamus sit.
+      </p>
+
+      </div>
+          </div>
+      </div>
+      
+            </div>
+          </div>
+      </div>
+    </div>
+</head>
+
+    <footer class="footer mt-auto py-3">
+      <div class="container">
+        <span class="text-muted">ADD FOOTER LINE HERE!!!</span>
+      </div>
+    </footer>
 
 </body>
 </html>
