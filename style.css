@@ -4,14 +4,14 @@ h1 {
   color: black
 }
 
-/* .container {
-  display: inline-block;
-} */
 
-/* .nav {
+.navbar {
   height: 80px;
-  font-size: 100px;
-}  */
+}
+
+.nav-link {
+  font-size: 40px;
+} 
 
 hr { 
   display: block;
@@ -37,5 +37,14 @@ hr {
 }
 
 footer {
-  bottom: 10px;
+  position: absolute;
+  bottom: 0px;
+  text-align: center;
+  height: 55px;
+  width: 100%;
+}
+
+.card-img-top{
+  height: 180px;
+  width: 100%;
 }
